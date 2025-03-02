@@ -15,9 +15,9 @@ int main(){
     istringstream ss(inputstr);
     vector <int> numbers;
 
-    string num;
+    int num;
     while(ss>>num){
-        numbers.push_back(stoi(num));
+        numbers.push_back(num);
     }
 
     int total =0;
