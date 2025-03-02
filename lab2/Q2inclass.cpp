@@ -17,7 +17,7 @@ int main(){
 
     int n = vecintegers.size();
 
-    for(int i=0; i<n-1; i++){
+    for(int i=0; i<n; i++){
         for(int j=0; j<n-1-i; j++){
             if(vecintegers[j]>vecintegers[j+1]){
                 int key = vecintegers[j];
